@@ -59,11 +59,11 @@ input{
     height: 48px;
     padding: 14px 52px 14px 16px;
 }
-.green{
+/* .green{
    
     border: 1px solid #2EC4B6;
-}
-.grey{
+} */
+.grey, .green{
     border: 1px solid #F0F0F0; 
 }
 .cl{
@@ -102,4 +102,7 @@ input{
 }
 a{
     color: #2EC4B6;
+}
+input:hover, select:hover{
+ border: 1px solid #2EC4B6;
 }
