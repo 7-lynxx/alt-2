@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap');
+.form{
+    position: absolute;
+  
+    border: 2px solid #FFFFFF;
+    left: 720px;
+    right: 140px;
+    top: 81px;
+    bottom: 80px;
+    width: 580px;
+    height: 679px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    padding: 40px;
+    font-family:"Sofia Sans", sans-serif ;
+}
+
+
+.row{
+    
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col{
+  
+    margin-right: 24px;
+    margin-bottom: 30px;
+}
+.col:last-child{
+    margin-right: 0;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+    padding-right: 79px;
+    height: 14px;
+    font-size: 14px;
+    font-weight: 600;
+}
+input{
+    width: 238px;
+    height: 48px;
+    padding: 14px 52px 14px 16px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.act-pass{
+    padding: 14px 52px 14px 16px;
+    width:500px;
+    height:48px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+
+}
+.big{
+    width: 238px;
+    height: 48px;
+    padding: 14px 52px 14px 16px;
+}
+.green{
+   
+    border: 1px solid #2EC4B6;
+}
+.grey{
+    border: 1px solid #F0F0F0; 
+}
+.cl{
+    width:500px;
+    height:48px;
+    background-color:#2EC4B6;
+    border: transparent;
+    color: #fff;
+    padding: 16px 219px;
+    margin-bottom: 0px;
+}
+::placeholder{
+    font-weight: 300;
+}
+.px{
+    
+    margin-bottom: 16px;
+}
+.double{
+    padding-right: 167px;
+}
+.oxy{
+    margin-bottom: 30px;
+}
+.click{
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-right: 19px;
+    width: 463px;
+    height:25px;
+    text-wrap:  nowrap;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+a{
+    color: #2EC4B6;
+}

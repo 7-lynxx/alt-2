@@ -1,0 +1,91 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sofia Sans", sans-serif;
+}
+.container{
+        
+        flex-shrink: 0;
+        margin: auto;
+        height: 840px;
+        position: relative;
+        background-color:rgba(46, 196, 182, 0.04);
+}
+
+.logo{
+    width: 77.33px;
+    height: 80px;
+}
+.logo, .exp, .idv{
+    position: absolute;
+    left:140px;
+}
+img{ 
+    width: 100%;
+    height: auto;
+    
+}
+.logo{
+    top:205px;
+
+    right:1222.67px;
+    bottom:555px;
+}
+.idv{
+    top:335px;
+    bottom: 455px;
+    right:1032px;
+    width: 268px;
+    height: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    font-size: 40px;
+    text-wrap: nowrap;
+}
+.exp{
+    top:405px;
+    width:460px;
+    height: 75px;
+    right: 840px;
+    bottom: 360px;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+}
+.nexp{
+    position: absolute;
+    display:none;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 16px;
+    font-style: normal;
+}
+.gen{
+   
+    top: 178px;
+    right: 310px;
+    bottom: 477px;
+    left: 246px;
+}
+.gen, .date{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.date{
+    top: 178px;
+    right: 48px;
+    bottom: 477px;
+    left: 508px;
+}
+.hid{
+    appearance: none;
+    
+}
